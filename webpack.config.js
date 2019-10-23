@@ -12,7 +12,7 @@ module.exports = {
 		'js/app': ['./src/App.tsx'],
 	},
 	output: {
-		path: path.resolve(__dirname, 'dist/'),
+		path: path.resolve(__dirname, 'build/'),
 		publicPath: '/',
 	},
 	devServer: {

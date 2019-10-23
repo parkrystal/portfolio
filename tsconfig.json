@@ -10,7 +10,7 @@
 		// "allowJs": true,
 		"jsx": "react",
 		"allowSyntheticDefaultImports": true,
-		"keyofStringsOnly": true,
+		// "keyofStringsOnly": true,
 		"lib": ["es2015", "es6", "esnext", "dom"],
 		"noImplicitAny": true,
 		"noImplicitThis": true,

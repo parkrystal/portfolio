@@ -12,8 +12,8 @@ module.exports = {
 		'js/app': ['./src/App.tsx'],
 	},
 	output: {
-		path: path.resolve(__dirname, 'dist/'),
-		publicPath: '/',
+		path: path.resolve(__dirname, 'build/'),
+		publicPath: './',
 	},
 	module: {
 		rules: [
