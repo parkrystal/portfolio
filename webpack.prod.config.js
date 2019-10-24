@@ -13,6 +13,7 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve(__dirname, 'build/'),
+		filename: 'bundle.js',
 		publicPath: './',
 	},
 	module: {
@@ -48,6 +49,19 @@ module.exports = {
 					'style-loader',
 				],
 			},
+			{
+				test: /\.(png|jpg|jpeg|gif|svg)$/,
+				use: [
+					'file-loader',
+					{
+						loader: 'file-loader',
+						options: {
+							publicPath:'build/resources/images',
+							name: '[name].[ext]?[hash]',
+						}
+					},
+				],
+			}
 		],
 	},
 	plugins: [

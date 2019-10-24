@@ -11,13 +11,13 @@ module.exports = {
 	entry: {
 		'js/app': ['./src/App.tsx'],
 	},
-	output: {
-		path: path.resolve(__dirname, 'build/'),
-		publicPath: '/',
-	},
+	// output: {
+	// 	path: path.resolve(__dirname, 'build/'),
+	// 	publicPath: '/',
+	// },
 	devServer: {
 		inline: true,
-		port: 7777,
+		port: 8080,
 	},
 	module: {
 		rules: [
@@ -56,7 +56,7 @@ module.exports = {
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
-			template: './src/index.html',
+			template: path.resolve(__dirname, 'src/index_dev.html'),
 			filename: 'index.html',
 		}),
 		// For typescript
