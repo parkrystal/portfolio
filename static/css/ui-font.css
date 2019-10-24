@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'NotoKrL';
+	font-style: normal;
+	font-weight: normal;
+	src:url('../fonts/notokr-light.eot'),
+	url('../fonts/notokr-light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/notokr-light.woff2') format('woff2'),
+	url('../fonts/notokr-light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'NotoKrR';
+	src:url('../fonts/notokr-regular.eot'),
+	url('../fonts/notokr-regular.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/notokr-regular.woff2') format('woff2'),
+	url('../fonts/notokr-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'NotoKrM';
+	font-style: normal;
+	font-weight: normal;
+	src:url('../fonts/notokr-medium.eot'),
+	url('../fonts/notokr-medium.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/notokr-medium.woff2') format('woff2'),
+	url('../fonts/notokr-medium.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'NotoKrB';
+	font-style: normal;
+	font-weight: normal;
+	src:url('../fonts/notokr-bold.eot'),
+	url('../fonts/notokr-bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/notokr-bold.woff2') format('woff2'),
+	url('../fonts/notokr-bold.woff') format('woff');
+
+}
+
+@font-face {
+	font-family: NanumSq;
+	src: local(NanumSquareR),
+	local(NanumSquare),
+	url(../fonts/NanumSquareR.eot?#iefix) format('embedded-opentype'),
+	url(../fonts/NanumSquareR.woff) format('woff'),
+	url(../fonts/NanumSquareR.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: NanumSqL;
+	src: url(../fonts/NanumSquareL.eot?#iefix) format('embedded-opentype'),
+	url(../fonts/NanumSquareL.woff) format('woff'),
+	url(../fonts/NanumSquareL.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: NanumSqB;
+	src: local(NanumSquareB),
+	local(NanumSquareBold),
+	url(../fonts/NanumSquareB.eot?#iefix) format('embedded-opentype'),
+	url(../fonts/NanumSquareB.woff) format('woff'),
+	url(../fonts/NanumSquareB.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: NanumSqEB;
+	src: local(NanumSquareEB),
+	local(NanumSquareExtraBold),
+	url(../fonts/NanumSquareEB.eot?#iefix) format('embedded-opentype'),
+	url(../fonts/NanumSquareEB.woff) format('woff'),
+	url(../fonts/NanumSquareEB.ttf) format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
